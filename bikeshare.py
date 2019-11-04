@@ -186,16 +186,7 @@ def main():
         #function to load data.
         city, month, day = get_filters()
         df = load_data(city, month, day)
-        # function to calculate certain values from data.
-        time_stats(df )
-        station_stats(df)
-        trip_duration_stats(df)
-        user_stats(df , city)
-        
-        #removing added rows  .    
-        df.drop(['Start Time','month','start hour','day_of_week',
-                 'start station and end station trip'], axis =1 , inplace = True) 
-        # print 5 rows at a time and wait for user inputs.
+         # print 5 rows at a time and wait for user inputs.
         start = 0
         end = 5 
         while end <= df.shape[0] :
@@ -206,6 +197,14 @@ def main():
            if input('\nWould you like to view more rows ? Enter yes or no .').lower() == 'no':
                     break
 
+        # function to calculate certain values from data.
+        time_stats(df )
+        station_stats(df)
+        trip_duration_stats(df)
+        user_stats(df , city)
+        
+       
+       
                 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() != 'yes':

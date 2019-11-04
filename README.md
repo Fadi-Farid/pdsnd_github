@@ -19,4 +19,8 @@ washington.csv
 ### Credits
 https://pandas.pydata.org/pandas-docs/stable/
 https://www.geeksforgeeks.org/python-pandas-series-astype-to-convert-data-type-of-series/
+https://www.w3schools.com/python/python_try_except.asp
+https://kite.com/blog/python/pandas-groupby-count-value-count/
+https://docs.anaconda.com/anaconda/
+https://www.python.org/doc/
 

@@ -24,4 +24,6 @@ https://kite.com/blog/python/pandas-groupby-count-value-count/
 https://docs.anaconda.com/anaconda/
 https://www.python.org/doc/
 https://docs.python.org/3/reference/
+https://www.w3schools.com/python/python_reference.asp
+
 
